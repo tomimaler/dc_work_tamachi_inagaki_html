@@ -1,0 +1,56 @@
+.container {
+    width:75%;
+    border:solid 3px orange;
+    margin:0 auto;
+    padding:10px;
+   font-size:18px;
+   font-weight:bolder;
+}
+
+.status {
+    border:solid 1px orange;
+    margin:20px;
+}
+
+.promotion {
+    border:solid 1px orange;
+    margin:20px;
+}
+
+dt {
+    border-bottom:solid 1px orange;
+    padding-bottom:0;
+    margin-bottom:0;
+}
+
+h2 {
+    border:solid 1px orange;
+    background-color:Moccasin;
+    text-align:left;
+    margin-top:0;
+    padding:10px;
+}
+
+dl {
+    list-style:none;
+    margin:10px;
+}
+
+dd {
+    padding-top:0;
+    margin-top:0
+}
+
+p {
+    padding:10px;
+}
+
+a {
+    text-align:center;
+    text-decoration:none;
+    font-weight:bold;
+    display:block;
+    background-color:Moccasin;
+    border:solid 1px orange;
+    margin:20px;
+}

@@ -1,0 +1,25 @@
+body {
+    font-size:16px;
+}
+
+h1 {
+    background-color:aqua;
+    color:blue;
+    font-size:20px;
+    text-align:center;
+    border-top:dashed 3px blue;
+    border-bottom:dashed 3px blue;
+}
+
+span {
+    color:red;
+    font-size:18px;
+}
+
+a {
+    color:orange;
+}
+
+ul {
+    list-style:square;
+}
