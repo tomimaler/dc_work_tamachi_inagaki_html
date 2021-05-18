@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+ <head>
+  <meta charset="UTF-8">
+  <title>7章課題</title>
+  <link rel="stylesheet" href="practice_selector.css">
+
+ <body>
+  <h1>ITアンケート</h1>
+  <p>
+   <label for="name">お名前:</label>
+   <input type="text" name="name" id="name">
+  </p>
+  <p>
+   <label for="mail">メールアドレス:</label>
+   <input type="email" name="mail" id="mail">
+  </p>
+  <p>
+   <label for="phone">電話番号:</label>
+   <input type="text" name="phone" id="phone" placeholder="00012345678">
+  </p>
+  <p>
+      現在のHTML理解度を教えてください:
+      <label><input type="radio" name="htmllevel" value="beginner">低い</label>
+      <label><input type="radio" name="htmllevel" value="intermedite">普通</label>
+      <label><input type="radio" name="htmllevel" value="advanced">高い</label>
+  </p>
+  <p>
+      現在のCSS理解度を教えてください:
+      <label><input type="radio" name="csslevel" value="beginner">低い</label>
+      <label><input type="radio" name="csslevel" value="intermedite">普通</label>
+      <label><input type="radio" name="csslevel" value="advanced">高い</label>
+  </p>
+  <p>
+      聞いたことがあるプログラミング言語を選択してください(複数選択可):
+      <label><input type="checkbox" name="language" value="1">C</label>
+      <label><input type="checkbox" name="language" value="2">Java</label>
+      <label><input type="checkbox" name="language" value="3">PHP</label>
+      <label><input type="checkbox" name="language" value="4">Ruby</label>
+      <label><input type="checkbox" name="language" value="5">JavaScript</label>
+  </p>
+  <p>
+      <input type="submit" value="送信">
+  </p>
+ </body>
+</html> 
