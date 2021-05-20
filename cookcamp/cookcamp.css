@@ -3,6 +3,10 @@
     margin:0 auto;
 }
 
+main {
+    background-color:#f5f5dd;
+}
+
 a {
     text-decoration:none;
 }
@@ -37,16 +41,9 @@ header input {
     flex:1;
 }
 
-.contents-wrapper {
-    background-color:#f5f5dd;
-}
-
-nav, article {
-    background-color:white;
-}
-
-nav {
+.recipe-nav {
     margin:20px;
+    background-color:white;
 }
 
 h3 {
@@ -71,19 +68,6 @@ h3 img {
     border-top:1px dashed;
 }
 
-.mainView {
-    clear:both;
-}
-
-.genre {
-    float:left;
-}
-
-.purpose {
-    clear:left;
-    float:left;
-}
-
 .new-recipes {
     display:flex;
 }
@@ -96,21 +80,15 @@ h3 img {
     width:100%;
 }
 
-/*.article {
-
-}*/
-
-.head-article, .japanese, .recommend {
-    display:block;
+.left-column {
+    float:left;
 }
 
-.codecamp {
-    clear:both;
-    float:right;
+.main-column {
+    float:left;
 }
 
-.webdesign {
-    clear:both;
+.right-column {
     float:right;
 }
 
