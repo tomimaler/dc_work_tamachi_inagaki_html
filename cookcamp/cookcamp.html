@@ -10,7 +10,7 @@
     <div class="container">
         <img class="logo" src="images/structure/logo.png">
         <input type="submit" value="レシピ検索">
-        <input type="text" name="search" placeholder="料理名・食材名で検索">
+        <input id="search" type="text" name="search" placeholder="料理名・食材名で検索">
         <p>誰でも作れる簡単料理レシピ掲載サイト</p>
         <ul class="header-menu">
             <a href="#"><li class="menu1">新着レシピ</li></a>
@@ -52,46 +52,58 @@
             </div>    
         </nav>
         <div class="main-column">
-            <h3><img src="images/icon/dish.png">新着レシピ</h3>
-            <div class="new-recipes">
-                <div class="new-recipe">
-                    <img src="images/contents/newRecipes1.jpg" alt="季節野菜の彩り前菜">
-                    <p>季節野菜の彩り前菜</p>
+            <div class="article">
+                <h3><img src="images/icon/dish.png">新着レシピ</h3>
+                <div class="section">
+                    <div class="new-recipes">
+                        <div class="new-recipe">
+                            <img src="images/contents/newRecipes1.jpg" alt="季節野菜の彩り前菜">
+                            <p>季節野菜の彩り前菜</p>
+                        </div>
+                        <div class="new-recipe">
+                            <img src="images/contents/newRecipes2.jpg" alt="簡単カボチャスープ">
+                            <p>簡単カボチャスープ</p>
+                        </div>
+                        <div class="new-recipe">
+                            <img src="images/contents/newRecipes3.jpg" alt="ヘルシー米粉パン">
+                            <p>ヘルシー米粉パン</p>
+                        </div>
+                        <div class="new-recipe">
+                            <img src="images/contents/newRecipes4.jpg" alt="ぷりぷり海老料理">
+                            <p>ぷりぷり海老料理</p>
+                        </div>
+                        <div class="new-recipe">
+                            <img src="images/contents/newRecipes5.jpg" alt="かんたん鴨南蛮">
+                            <p>かんたん鴨南蛮</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="new-recipe">
-                    <img src="images/contents/newRecipes2.jpg" alt="簡単カボチャスープ">
-                    <p>簡単カボチャスープ</p>
-                </div>
-                <div class="new-recipe">
-                    <img src="images/contents/newRecipes3.jpg" alt="ヘルシー米粉パン">
-                    <p>ヘルシー米粉パン</p>
-                </div>
-                <div class="new-recipe">
-                    <img src="images/contents/newRecipes4.jpg" alt="ぷりぷり海老料理">
-                    <p>ぷりぷり海老料理</p>
-                </div>
-                <div class="new-recipe">
-                    <img src="images/contents/newRecipes5.jpg" alt="かんたん鴨南蛮">
-                    <p>かんたん鴨南蛮</p>
+            </div>
+            <div class="article">
+                <h3><img src="images/icon/dish.png">今だからこそ見直したい「和食」</h3>
+                <div class="section">
+                    <img class="section-img" src="images/contents/topics.jpg" alt="和食">
+                    <p>　普段、私たちが何気なく口にしている和食ですが、その基本は一汁三菜。ご飯、味噌汁、お漬物の他、主菜（魚またはお肉）、副菜として季節ごとの野菜と豆類で構成されます。</p>
+                    <p>昔から「旬の野菜を食べましょう」と言いますが、それは素材がじっくりと時間をかけて蓄積してきた旨みや栄養価が最高になったところでいただいて、効率よく栄養を取り風邪などの予防をしましょうね、ということです。</p>
+                    <p>それでは各季節毎の旬の野菜について調べてみましょう</p>
+                    <a href="#"><img src="images/icon/arrow.png" alt="arrow">続きを読む</a>
+                </div>    
+            </div>
+            <div class="article">
+                <h3><img src="images/icon/dish.png">簡単！おすすめレシピ</h3>
+                <div class="section">
+                    <img src="images/contents/pushRecipes1.jpg" alt="春">
+                    <h1>季節の食材～春～</h1>
+                    <p>　新玉ねぎに春キャベツ、新じゃが、山菜などなど・・・春の野菜は風味が良くみずみずしいのが特徴です。</p>
+                    <p>それでは春野菜を使ったレシピを紹介しましょう。</p>
+                    <a href="#"><img src="images/icon/arrow.png" alt="arrow">続きを読む</a>
+                    <img src="images/contents/pushRecipes2.jpg" alt="花粉症">
+                    <h1>春野菜を食べて花粉症予防！？</h1>
+                    <p>　春になると花粉症に悩まされる人は多いと思います。この花粉症、ある食材を取ることで少し緩和されるんです！</p>
+                    <p>さて、その食材とは・・・？</p>
+                    <a href="#"><img src="images/icon/arrow.png" alt="arrow">続きを読む</a>
                 </div>
             </div>    
-            <h3><img src="images/icon/dish.png">今だからこそ見直したい「和食」</h3>
-            <img src="images/contents/topics.jpg" alt="和食">
-            <p>　普段、私たちが何気なく口にしている和食ですが、その基本は一汁三菜。ご飯、味噌汁、お漬物の他、主菜（魚またはお肉）、副菜として季節ごとの野菜と豆類で構成されます。</p>
-            <p>昔から「旬の野菜を食べましょう」と言いますが、それは素材がじっくりと時間をかけて蓄積してきた旨みや栄養価が最高になったところでいただいて、効率よく栄養を取り風邪などの予防をしましょうね、ということです。</p>
-            <p>それでは各季節毎の旬の野菜について調べてみましょう</p>
-            <a href="#"><img src="images/icon/arrow.png" alt="arrow">続きを読む</a>
-            <h3><img src="images/icon/dish.png">簡単！おすすめレシピ</h3>
-            <img src="images/contents/pushRecipes1.jpg" alt="春">
-            <h1>季節の食材～春～</h1>
-            <p>　新玉ねぎに春キャベツ、新じゃが、山菜などなど・・・春の野菜は風味が良くみずみずしいのが特徴です。</p>
-            <p>それでは春野菜を使ったレシピを紹介しましょう。</p>
-            <a href="#"><img src="images/icon/arrow.png" alt="arrow">続きを読む</a>
-            <img src="images/contents/pushRecipes2.jpg" alt="花粉症">
-            <h1>春野菜を食べて花粉症予防！？</h1>
-            <p>　春になると花粉症に悩まされる人は多いと思います。この花粉症、ある食材を取ることで少し緩和されるんです！</p>
-            <p>さて、その食材とは・・・？</p>
-            <a href="#"><img src="images/icon/arrow.png" alt="arrow">続きを読む</a>
         </div>
         <aside class="right-column">
             <a href="#"><img src="images/contents/right1.png"></a>
