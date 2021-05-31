@@ -120,11 +120,27 @@ h3 img {
 }
 
 .section-img {
-    float:left;
+    display:inline-block;
 }
 
-.section p {
-    float:left;
+.section-text {
+    display:inline-block;
+    vertical-align:top;
+    font-size:14px;
+    width:300px;
+}
+
+.section-text a{
+    color:#fc8833;
+    float:right;
+}
+
+.section-text img {
+    margin-right:5px;
+}
+
+h4 {
+    color:#664433;
 }
 
 .article {
@@ -133,6 +149,10 @@ h3 img {
 
 .section {
     padding:5px;
+}
+
+.right-column img {
+    margin:10px;
 }
 
 .left-column {
@@ -152,4 +172,23 @@ h3 img {
 
 footer {
     clear:both;
+    border-top:1px solid;
+    text-align:center;
+}
+
+.footer-list {
+    display:flex;
+    text-align:center;
+    list-style:none;
+}
+
+.footer-list a {
+    flex:1;
+    padding:1px;
+    font-size:11px;
+    color:black;
+}
+
+.footer-list a+ a {
+    border-left:1px solid #cccccc;
 }
