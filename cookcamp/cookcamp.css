@@ -1,3 +1,7 @@
+body {
+    margin:0;
+}
+
 .container {
     width:960px;
     margin:0 auto;
@@ -5,6 +9,8 @@
 
 main {
     background-color:#f5f5dd;
+    font-family:"Yu Gothic";
+    font-weight:500;
 }
 
 a {
@@ -58,39 +64,46 @@ header input {
 }
 
 .recipe-nav {
-    margin:10px;
+    margin:10px 5px 20px 5px;
+    padding:1px 5px;
     background-color:white;
 }
 
 h3 {
     background-color:#99bb22;
     padding:5px;
+    margin:10px 0;
     border-radius:25px;
-    line-height:30px;
-    font-size:20px;
+    line-height:26px;
+    font-size:18px;
     color:white;
+    /*文字の上下の余白が均等じゃない*/
 }
 
 h3 img {
     margin-left:10px;
     margin-right:10px;
-    vertical-align:-20%;
+    vertical-align:-18%;
 }
 
 .recipe-list {
     list-style-image: url('images/icon/arrow.png');
-    text-align:left;
+    margin:0;
+    font-size:12px;
+    padding-left:0;
 }
 
 .recipe-list a {
     display:block;
     color:black;
+    width:100%;
 }
 
 .recipe-list li {
-    margin:10px 0;
+    margin:8px 0;
     font-size:14px;
     font-weight:bold;
+    list-style-position:inside;
 }
 
 .recipe-list a+ a {
@@ -99,16 +112,17 @@ h3 img {
 
 .new-recipes {
     display:flex;
-    justify-content: center;
-    align-items:center;
+/*flexbox内の画像が左に寄っているので中央に寄せたい*/    
 }
 
 .new-recipe {
     flex:1;
+    justify-content: center;
+    align-items:center;
 }
 
 .new-recipe img {
-    margin-bottom:0;
+    margin:0 auto;
     padding-bottom:0;
 }
 
@@ -126,25 +140,40 @@ h3 img {
 .section-text {
     display:inline-block;
     vertical-align:top;
+    margin-left:10px;
     font-size:14px;
     width:300px;
 }
 
+.main-text {
+    margin-left:15px;
+}
+
+.section-text p {
+    margin-top:0;
+}
+
 .section-text a{
     color:#fc8833;
+    vertical-align:top;
     float:right;
+    margin-bottom:10px;
 }
 
 .section-text img {
     margin-right:5px;
+    vertical-align:-10%;
 }
 
 h4 {
     color:#664433;
+    margin-top:0;
 }
 
 .article {
-    margin:10px;
+    margin:20px 10px;
+    padding:1px 5px;
+    background-color:white;
 }
 
 .section {
@@ -171,7 +200,7 @@ h4 {
 }
 
 .clearfix::after {
-content: “”;
+content: "";
 display: block;
 clear: both;
 }
@@ -186,6 +215,7 @@ footer {
     display:flex;
     text-align:center;
     list-style:none;
+    /*サイズを見本みたいに縮めたい*/
 }
 
 .footer-list a {
