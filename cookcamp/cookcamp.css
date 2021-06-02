@@ -1,5 +1,6 @@
 body {
     margin:0;
+    min-width:fit-content;
 }
 
 .container {
@@ -64,7 +65,7 @@ header input {
 }
 
 .recipe-nav {
-    margin:10px 5px 20px 5px;
+    margin:20px 5px 10px 5px;
     padding:1px 5px;
     background-color:white;
 }
@@ -171,7 +172,7 @@ h4 {
 }
 
 .article {
-    margin:20px 10px;
+    margin:20px 10px 10px 10px;
     padding:1px 5px;
     background-color:white;
 }
@@ -181,7 +182,7 @@ h4 {
 }
 
 .right-column img {
-    margin:10px;
+    margin:20px 10px 5px 10px;
 }
 
 .left-column {
