@@ -157,14 +157,12 @@ h3 img {
 
 .section-text a{
     color:#fc8833;
-    vertical-align:top;
     float:right;
     margin-bottom:10px;
 }
 
 .section-text img {
     margin-right:5px;
-    vertical-align:-10%;
 }
 
 h4 {
