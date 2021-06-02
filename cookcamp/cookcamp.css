@@ -12,6 +12,7 @@ main {
     background-color:#f5f5dd;
     font-family:"Yu Gothic";
     font-weight:500;
+    padding-bottom:10px;
 }
 
 a {
@@ -69,7 +70,7 @@ header input {
 }
 
 .recipe-nav {
-    margin:20px 5px 10px 5px;
+    margin:20px 20px 10px 0;
     padding:1px 5px;
     background-color:white;
 }
@@ -94,8 +95,7 @@ h3 img {
 .recipe-list {
     list-style-image: url('images/icon/arrow.png');
     margin:0;
-    font-size:12px;
-    padding-left:0;
+    padding:2px;
 }
 
 .recipe-list a {
@@ -105,7 +105,7 @@ h3 img {
 }
 
 .recipe-list li {
-    margin:6px 0;
+    margin:7px 0;
     font-size:14px;
     font-weight:bold;
     list-style-position:inside;
@@ -183,7 +183,8 @@ h4 {
 }
 
 .right-column img {
-    margin:20px 10px 5px 10px;
+    margin:20px 0 5px 20px;
+    /*隙間と上の画像と線を揃えたいが・・・*/
 }
 
 .left-column {
@@ -229,4 +230,8 @@ footer {
 
 .footer-list a+ a {
     border-left:1px solid #cccccc;
+}
+
+footer p {
+    font-size:12px;
 }
