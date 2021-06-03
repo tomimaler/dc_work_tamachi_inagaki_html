@@ -77,19 +77,21 @@ header input {
 
 h3 {
     background-color:#99bb22;
-    padding:5px;
-    margin:12px 0;
     border-radius:25px;
-    line-height:26px;
+    height:35px;
+    line-height:35px;
     font-size:18px;
     color:white;
-    /*文字の上下の余白が均等じゃない*/
+    margin-top:15px;
+    margin-bottom:10px;
 }
 
-h3 img {
-    margin-left:10px;
-    margin-right:10px;
-    vertical-align:-18%;
+h3::before {
+    content: url('images/icon/dish.png');
+    padding-left:15px;
+    padding-right:10px;
+    position:relative;
+    top:5px;
 }
 
 .recipe-list {
@@ -172,19 +174,18 @@ h4 {
 }
 
 .article {
-    margin:20px 10px 10px 10px;
-    padding:1px 5px;
+    margin:20px 5px 10px 5px;
+    padding:1px 10px;
     background-color:white;
 }
 
 .section {
-    padding:5px;
+    padding:10px 5px;
     line-height:1.5;
 }
 
 .right-column img {
-    margin:20px 0 5px 20px;
-    /*隙間と上の画像と線を揃えたいが・・・*/
+    margin:20px 0 0 20px;
 }
 
 .left-column {
@@ -222,10 +223,17 @@ footer {
   }
 
 .footer-list a {
-    flex-basis:150px;
     font-size:12px;
     color:black;
     font-weight:bold;
+}
+
+.item1 {
+    flex-basis:120px;
+}
+
+.item2 {
+    flex-basis:160px;
 }
 
 .footer-list a+ a {
@@ -234,4 +242,5 @@ footer {
 
 footer p {
     font-size:12px;
+    margin-top:5px;
 }
