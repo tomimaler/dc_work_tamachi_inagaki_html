@@ -68,6 +68,7 @@ header input {
 
 .header-menu a {
     color:#664433;
+    display:block;
 }
 
 .mainView {
@@ -108,16 +109,15 @@ h3::before {
     list-style-type:none;
     background-image:url('images/icon/arrow.png');
     background-repeat:no-repeat;
-    background-position:left 0.5em;
+    background-position:left 0.6em;
     padding:7px 0px 7px 20px;
-    color:black;
 }
 
 .recipe-list a {
     display:block;
     font-size:14px;
     font-weight:bold;
-    
+    color:black;
 }
 
 .recipe-list li+ li {
