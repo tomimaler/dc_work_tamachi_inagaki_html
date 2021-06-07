@@ -40,11 +40,13 @@ header p{
 
 header input {
     float:right;
+    margin-top:15px;
 }
 
 #search {
     height:20px;
     margin-right:5px;
+    margin-top:15px;
 }
 
 .header-menu {
@@ -55,14 +57,17 @@ header input {
     font-weight:bold;
 }
 
-.header-menu a+ a {
+.header-menu li+ li {
     border-left:1px solid;
+}
+
+.header-menu li {
+    flex:1;
+    padding:0 2px;
 }
 
 .header-menu a {
     color:#664433;
-    flex:1;
-    padding:0 2px;
 }
 
 .mainView {
@@ -100,20 +105,20 @@ h3::before {
     padding:2px;
 }
 
-.recipe-list a {
-    display:block;
+.recipe-list li {
     color:black;
     width:100%;
-}
-
-.recipe-list li {
-    margin:7px 0;
-    font-size:14px;
-    font-weight:bold;
     list-style-position:inside;
 }
 
-.recipe-list a+ a {
+.recipe-list a {
+    display:block;
+    font-size:14px;
+    font-weight:bold;
+    
+}
+
+.recipe-list li+ li {
     border-top:1px dashed;
 }
 
