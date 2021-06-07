@@ -100,15 +100,17 @@ h3::before {
 }
 
 .recipe-list {
-    list-style-image: url('images/icon/arrow.png');
     margin:0;
     padding:2px;
 }
 
 .recipe-list li {
+    list-style-type:none;
+    background-image:url('images/icon/arrow.png');
+    background-repeat:no-repeat;
+    background-position:left 0.5em;
+    padding:7px 0px 7px 20px;
     color:black;
-    width:100%;
-    list-style-position:inside;
 }
 
 .recipe-list a {
@@ -227,7 +229,7 @@ footer {
     justify-content:center;
   }
 
-.footer-list a {
+.footer-list li {
     font-size:12px;
     color:black;
     font-weight:bold;
@@ -241,7 +243,7 @@ footer {
     flex-basis:160px;
 }
 
-.footer-list a+ a {
+.footer-list li+ li {
     border-left:1px solid #cccccc;
 }
 
